@@ -1,0 +1,30 @@
+#abc a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.postForm{
+  width:500px;
+  position: absolute;
+  height: 550px;
+  background-color:rgb(244, 232, 207);
+  border-radius: 10px;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left:50%;
+}
+.postForm form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:10px;
+}
+.postForm form img{
+  width: 100px;
+  height: 70px;
+}
+/* #Login{
+  background-image: URL(https://media.istockphoto.com/id/1489939842/photo/businessman-reading-graph-report-and-business-statistics-charts-analysis-and-improvement-of.jpg?s=612x612&w=0&k=20&c=uwvVjXr-AexYjbeLlUXkvlFKfZULwXex9_A01SJvFFE=);
+  
+} */
